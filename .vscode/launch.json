@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CorysanCopia",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "CorysanCopia",
+            "server": "https://businesscentral.dynamics.com",
+            "authentication": "AAD",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "8f32c2a8-028e-4462-a383-92757bb4b85b",
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
